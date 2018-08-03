@@ -6,16 +6,17 @@
         <div class="header-center">
             <span class="iconfont">&#xe632;搜索热门景点</span>
         </div>
-        <div class="header-right">
-            城市<span class="iconfont">&#xe64a;</span>
-        </div>
+        <router-link to="/cities">
+            <div class="header-right">
+                城市<span class="iconfont">&#xe64a;</span>
+            </div>
+        </router-link>
     </div>
 </template>
 
 <script>
 export default {
   name: 'Header'
-
 }
 </script>
 
@@ -42,4 +43,5 @@ export default {
             float right
             width 1.24rem
             text-align center
+            color #ffffff
 </style>
